@@ -22,9 +22,13 @@ super + Escape
 super + shift + r
 	bspc wm -r
 
-# close and kill
+# close the program
 super + {_,shift + }q
-	bspc node -{c,k}
+	bspc node -c
+
+#kill the program 
+super + shift + w
+	bspc node -k
 
 # alternate between the tiled and monocle layout
 super + m
