@@ -7,7 +7,7 @@ super + Return
 	termite
 
 # program launcher
-super + {@space,g}
+super + {d,g}
 	rofi -show {drun,run}
 
 # make sxhkd reload its configuration files:
