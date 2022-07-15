@@ -126,7 +126,7 @@ super + {Left,Down,Up,Right}
 
 #powermenu script
 super + shift + e 
-	/home/dinesh/.config/sxhkd/powermenu
+	~/.config/sxhkd/powermenu
 
 
 #Volume Control
